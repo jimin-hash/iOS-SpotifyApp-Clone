@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>4909B1A9-E147-4BCA-B2BF-BFEFCA5333CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>4909B1A9-E147-4BCA-B2BF-BFEFCA5333CA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Spotify-cronqcekalqxdbdvdrmouctltbnq</string>
+			<key>timeStartedRecording</key>
+			<real>666873695.64387906</real>
+			<key>timeStoppedRecording</key>
+			<real>666873698.26703203</real>
+			<key>title</key>
+			<string>Build target Spotify</string>
+			<key>uniqueIdentifier</key>
+			<string>4909B1A9-E147-4BCA-B2BF-BFEFCA5333CA</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
