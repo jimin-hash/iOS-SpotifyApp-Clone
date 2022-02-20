@@ -29,6 +29,7 @@
 		EC0D2D4027BF8CF900684004 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D2D3F27BF8CF900684004 /* AudioTrack.swift */; };
 		EC0D2D4227BF8D0500684004 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D2D4127BF8D0500684004 /* Artist.swift */; };
 		EC0D2D4427BF8D1200684004 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D2D4327BF8D1200684004 /* UserProfile.swift */; };
+		EC9AA14927C23A2000AF61EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14827C23A2000AF61EC /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		EC0D2D3F27BF8CF900684004 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		EC0D2D4127BF8D0500684004 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		EC0D2D4327BF8D1200684004 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		EC9AA14827C23A2000AF61EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				EC0D2D1027BF7BFB00684004 /* Assets.xcassets */,
 				EC0D2D0727BF7BF900684004 /* AppDelegate.swift */,
 				EC0D2D0927BF7BF900684004 /* SceneDelegate.swift */,
+				EC9AA14827C23A2000AF61EC /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				EC0D2D2227BF8BEC00684004 /* TabbarViewController.swift in Sources */,
 				EC0D2D3C27BF8CDB00684004 /* HapticsManager.swift in Sources */,
 				EC0D2D4027BF8CF900684004 /* AudioTrack.swift in Sources */,
+				EC9AA14927C23A2000AF61EC /* Extension.swift in Sources */,
 				EC0D2D0C27BF7BF900684004 /* HomeViewController.swift in Sources */,
 				EC0D2D2A27BF8C4500684004 /* AuthViewController.swift in Sources */,
 				EC0D2D0827BF7BF900684004 /* AppDelegate.swift in Sources */,
