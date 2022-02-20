@@ -146,6 +146,34 @@
 			<key>uniqueIdentifier</key>
 			<string>42C2825C-2B07-4C7D-8FA9-DDB1EF857E8C</string>
 		</dict>
+		<key>5EFDFA86-11AD-415D-A960-51238F56B4CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
+			<key>fileName</key>
+			<string>5EFDFA86-11AD-415D-A960-51238F56B4CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Update Signing</string>
+			<key>timeStartedRecording</key>
+			<real>666876726.17696798</real>
+			<key>timeStoppedRecording</key>
+			<real>666876726.99582195</real>
+			<key>title</key>
+			<string>Update Signing</string>
+			<key>uniqueIdentifier</key>
+			<string>5EFDFA86-11AD-415D-A960-51238F56B4CB</string>
+		</dict>
 		<key>82DF96B9-EB1A-4494-A9F2-BEDC247EE3B4</key>
 		<dict>
 			<key>className</key>
@@ -201,6 +229,34 @@
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
 			<string>8AD19C22-0E6B-4432-9303-CB95E189CA4F</string>
+		</dict>
+		<key>978EBDC9-CBF8-4AA7-95C0-28C31FA60152</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
+			<key>fileName</key>
+			<string>978EBDC9-CBF8-4AA7-95C0-28C31FA60152.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Update Signing</string>
+			<key>timeStartedRecording</key>
+			<real>666876648.95681906</real>
+			<key>timeStoppedRecording</key>
+			<real>666876650.19054604</real>
+			<key>title</key>
+			<string>Update Signing</string>
+			<key>uniqueIdentifier</key>
+			<string>978EBDC9-CBF8-4AA7-95C0-28C31FA60152</string>
 		</dict>
 	</dict>
 </dict>
