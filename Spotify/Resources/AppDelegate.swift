@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         
         if AuthManager.shard.isSinged {
+            AuthManager.shard.refreshIfNeeded(completion: nil)
             window.rootViewController = TabbarViewController()
         } else {
             let navVC = UINavigationController(rootViewController: WelcomeViewController())
@@ -49,7 +50,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
 
