@@ -34,6 +34,7 @@
 		EC49C30F27C7C5020019311C /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C30E27C7C5020019311C /* APIImage.swift */; };
 		EC49C31127C7C7410019311C /* FeaturedPlayListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31027C7C7410019311C /* FeaturedPlayListResponse.swift */; };
 		EC49C31327C7CBDF0019311C /* RecommendedGenreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31227C7CBDF0019311C /* RecommendedGenreResponse.swift */; };
+		EC49C31527C7CF2C0019311C /* ReommendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31427C7CF2C0019311C /* ReommendationsResponse.swift */; };
 		EC8DEB2927C516BE00737DC8 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8DEB2827C516BD00737DC8 /* SettingsModel.swift */; };
 		EC9AA14927C23A2000AF61EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14827C23A2000AF61EC /* Extension.swift */; };
 		EC9AA14B27C2782A00AF61EC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */; };
@@ -70,6 +71,7 @@
 		EC49C30E27C7C5020019311C /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
 		EC49C31027C7C7410019311C /* FeaturedPlayListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlayListResponse.swift; sourceTree = "<group>"; };
 		EC49C31227C7CBDF0019311C /* RecommendedGenreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenreResponse.swift; sourceTree = "<group>"; };
+		EC49C31427C7CF2C0019311C /* ReommendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReommendationsResponse.swift; sourceTree = "<group>"; };
 		EC8DEB2827C516BD00737DC8 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		EC9AA14827C23A2000AF61EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				EC49C30E27C7C5020019311C /* APIImage.swift */,
 				EC49C31027C7C7410019311C /* FeaturedPlayListResponse.swift */,
 				EC49C31227C7CBDF0019311C /* RecommendedGenreResponse.swift */,
+				EC49C31427C7CF2C0019311C /* ReommendationsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				EC0D2D2427BF8C1000684004 /* SearchViewController.swift in Sources */,
 				EC0D2D3E27BF8CEF00684004 /* Playlist.swift in Sources */,
 				EC49C31127C7C7410019311C /* FeaturedPlayListResponse.swift in Sources */,
+				EC49C31527C7CF2C0019311C /* ReommendationsResponse.swift in Sources */,
 				EC0D2D3827BF8CBC00684004 /* AuthManager.swift in Sources */,
 				EC0D2D3627BF8C9900684004 /* SearchResultsViewController.swift in Sources */,
 				EC0D2D2C27BF8C5300684004 /* WelcomeViewController.swift in Sources */,

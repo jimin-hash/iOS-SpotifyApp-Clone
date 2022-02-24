@@ -32,7 +32,6 @@ final class APICaller {
                 
                 do {
                     let result = try JSONDecoder().decode(UserProfile.self, from: data)
-                    print(result)
                     completion(.success(result))
                 } catch {
                     print(error.localizedDescription)
@@ -53,7 +52,6 @@ final class APICaller {
                 
                 do {
                     let result = try JSONDecoder().decode(NewReleaseResponse.self, from: data)
-                    print(result)
                     completion(.success(result))
                 } catch {
                     print(error.localizedDescription)
@@ -74,7 +72,6 @@ final class APICaller {
                 
                 do {
                     let result = try JSONDecoder().decode(FeaturedPlayListResponse.self, from: data)
-                    print(result)
                     completion(.success(result))
                 } catch {
                     print(error.localizedDescription)
@@ -95,7 +92,6 @@ final class APICaller {
                 
                 do {
                     let result = try JSONDecoder().decode(RecommendedGenreResponse.self, from: data)
-                    print(result)
                     completion(.success(result))
                 } catch {
                     print(error.localizedDescription)
@@ -106,9 +102,9 @@ final class APICaller {
         }
     }
     
-    public func getRecommendations(genres: Set<String>, completion: @escaping ((Result<String, Error>)) -> Void) {
+    public func getRecommendations(genres: Set<String>, completion: @escaping ((Result<ReommendationsResponse, Error>)) -> Void) {
         let seeds = genres.joined(separator: ",")
-        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?seed_genres=\(seeds)"), type: .GET) { request in
+        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?limit=40&seed_genres=\(seeds)"), type: .GET) { request in
             let task = URLSession.shared.dataTask(with: request) { data, _, error in
                 guard let data = data, error == nil else {
                     completion(.failure(APIError.failedTogetData))
@@ -116,10 +112,8 @@ final class APICaller {
                 }
 
                 do {
-//                    let result = try JSONDecoder().decode(FeaturedPlayListResponse.self, from: data)
-                    let result = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-                    print(result)
-//                    completion(.success(result))
+                    let result = try JSONDecoder().decode(ReommendationsResponse.self, from: data)
+                    completion(.success(result))
                 } catch {
                     print(error.localizedDescription)
                     completion(.failure(error))
