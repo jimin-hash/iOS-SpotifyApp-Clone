@@ -39,6 +39,8 @@
 		EC49C31A27CA742A0019311C /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31927CA742A0019311C /* FeaturedPlaylistCollectionViewCell.swift */; };
 		EC49C31C27CA744C0019311C /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31B27CA744C0019311C /* RecommendedTrackCollectionViewCell.swift */; };
 		EC49C31E27CB7D0B0019311C /* NewReleaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31D27CB7D0B0019311C /* NewReleaseCellViewModel.swift */; };
+		EC49C32027CF90E30019311C /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C31F27CF90E30019311C /* FeaturedPlaylistCellViewModel.swift */; };
+		EC49C32227CF91700019311C /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49C32127CF91700019311C /* RecommendedTrackCellViewModel.swift */; };
 		EC8DEB2927C516BE00737DC8 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8DEB2827C516BD00737DC8 /* SettingsModel.swift */; };
 		EC9AA14927C23A2000AF61EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14827C23A2000AF61EC /* Extension.swift */; };
 		EC9AA14B27C2782A00AF61EC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */; };
@@ -80,6 +82,8 @@
 		EC49C31927CA742A0019311C /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC49C31B27CA744C0019311C /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC49C31D27CB7D0B0019311C /* NewReleaseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCellViewModel.swift; sourceTree = "<group>"; };
+		EC49C31F27CF90E30019311C /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
+		EC49C32127CF91700019311C /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		EC8DEB2827C516BD00737DC8 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		EC9AA14827C23A2000AF61EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				EC49C31D27CB7D0B0019311C /* NewReleaseCellViewModel.swift */,
+				EC49C31F27CF90E30019311C /* FeaturedPlaylistCellViewModel.swift */,
+				EC49C32127CF91700019311C /* RecommendedTrackCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				EC0D2D3E27BF8CEF00684004 /* Playlist.swift in Sources */,
 				EC49C31127C7C7410019311C /* FeaturedPlayListResponse.swift in Sources */,
 				EC49C31527C7CF2C0019311C /* ReommendationsResponse.swift in Sources */,
+				EC49C32227CF91700019311C /* RecommendedTrackCellViewModel.swift in Sources */,
 				EC0D2D3827BF8CBC00684004 /* AuthManager.swift in Sources */,
 				EC0D2D3627BF8C9900684004 /* SearchResultsViewController.swift in Sources */,
 				EC0D2D2C27BF8C5300684004 /* WelcomeViewController.swift in Sources */,
@@ -372,6 +379,7 @@
 				EC49C31C27CA744C0019311C /* RecommendedTrackCollectionViewCell.swift in Sources */,
 				EC0D2D2227BF8BEC00684004 /* TabbarViewController.swift in Sources */,
 				EC0D2D3C27BF8CDB00684004 /* HapticsManager.swift in Sources */,
+				EC49C32027CF90E30019311C /* FeaturedPlaylistCellViewModel.swift in Sources */,
 				EC9AA14B27C2782A00AF61EC /* AuthResponse.swift in Sources */,
 				EC0D2D4027BF8CF900684004 /* AudioTrack.swift in Sources */,
 				EC49C30F27C7C5020019311C /* APIImage.swift in Sources */,
