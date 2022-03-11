@@ -115,7 +115,6 @@ extension PlaylistViewController: UICollectionViewDelegate, UICollectionViewData
         header.configure(with: headerViewModel)
         header.delegate = self
         return header
-        
     }
 }
 
