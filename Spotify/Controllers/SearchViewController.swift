@@ -26,6 +26,8 @@ class SearchViewController: UIViewController {
         return NSCollectionLayoutSection(group: group)
     }))
     
+    private var categories = [Category]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +40,19 @@ class SearchViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = .systemBackground
+        
+        APICaller.shared.getCategory { result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let categories):
+                    self.categories = categories
+//                    APICaller.shared.getCategoryPlaylists(category: first) { result in
+//
+//                    }
+                case .failure(let error): break
+                }
+            }
+        }
     }
     
     override func viewDidLayoutSubviews() {

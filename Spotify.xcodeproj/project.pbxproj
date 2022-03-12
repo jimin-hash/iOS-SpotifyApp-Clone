@@ -51,6 +51,7 @@
 		EC9AA14927C23A2000AF61EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14827C23A2000AF61EC /* Extension.swift */; };
 		EC9AA14B27C2782A00AF61EC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */; };
 		ECD22E9427DB80DF007CB155 /* GenreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9327DB80DF007CB155 /* GenreCollectionViewCell.swift */; };
+		ECD22E9627DCCE9E007CB155 /* AllCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,7 @@
 		EC9AA14827C23A2000AF61EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		EC9AA14A27C2782A00AF61EC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		ECD22E9327DB80DF007CB155 /* GenreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesResponse.swift; sourceTree = "<group>"; };
 		FC82A558493493B15822D9D7 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,6 +207,7 @@
 				EC49C31427C7CF2C0019311C /* ReommendationsResponse.swift */,
 				EC49C32527CF9E240019311C /* AlbumDetailResponse.swift */,
 				EC49C32727CFA19F0019311C /* PlaylistDetailResponse.swift */,
+				ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				EC8DEB2927C516BE00737DC8 /* SettingsModel.swift in Sources */,
 				EC0D2D2A27BF8C4500684004 /* AuthViewController.swift in Sources */,
 				EC49C32A27D0E7310019311C /* PlaylistHeaderCollectionReusableView.swift in Sources */,
+				ECD22E9627DCCE9E007CB155 /* AllCategoriesResponse.swift in Sources */,
 				EC0D2D0827BF7BF900684004 /* AppDelegate.swift in Sources */,
 				EC0D2D4427BF8D1200684004 /* UserProfile.swift in Sources */,
 				EC0D2D2627BF8C2A00684004 /* LibraryViewController.swift in Sources */,
