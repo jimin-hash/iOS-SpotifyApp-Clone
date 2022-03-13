@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class SearchViewController: UIViewController, UISearchBarDelegate {
     let searchController: UISearchController = {
         let vc = UISearchController(searchResultsController: SearchResultsViewController())
         vc.searchBar.placeholder = "Songs, Artists, Albums"
@@ -33,6 +33,7 @@ class SearchViewController: UIViewController {
 
         view.backgroundColor = .systemBackground
         searchController.searchResultsUpdater = self
+        searchController.searchBar.delegate = self
         navigationItem.searchController = searchController
         
         view.addSubview(collectionView)
@@ -59,18 +60,56 @@ class SearchViewController: UIViewController {
         
         collectionView.frame = view.bounds
     }
+    
+    // Only call search Api when click enter
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        guard let resultController = searchController.searchResultsController as? SearchResultsViewController,
+                let query = searchBar.text,
+                !query.trimmingCharacters(in: .whitespaces).isEmpty else {
+            return
+        }
+        resultController.delegate = self
+        
+        APICaller.shared.search(with: query) { result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let results):
+                    resultController.update(with: results)
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+            }
+        }
+    }
+}
+
+extension SearchViewController: SearchResultsViewControllerDelegate {
+    func showResult(_ controller: UIViewController) {
+        controller.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    func didTapResult(_ result: SearchResult) {
+        switch result {
+        case .artist(let model):
+            break
+        case .album(let model):
+            let vc = AlbumViewController(album: model)
+            vc.navigationItem.largeTitleDisplayMode = .never
+            navigationController?.pushViewController(vc, animated: true)
+        case .track(let model):
+            break
+        case .playlist(let model):
+            let vc = PlaylistViewController(playlist: model)
+            vc.navigationItem.largeTitleDisplayMode = .never
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
 
 extension SearchViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        guard let resultController = searchController.searchResultsController as? SearchResultsViewController,
-                let query = searchController.searchBar.text,
-                !query.trimmingCharacters(in: .whitespaces).isEmpty else {
-            return
-        }
         
-        //perform search
-        // APICaller.shared.search
     }
 }
 

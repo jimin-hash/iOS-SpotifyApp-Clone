@@ -54,6 +54,8 @@
 		ECD22E9627DCCE9E007CB155 /* AllCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */; };
 		ECD22E9827DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9727DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift */; };
 		ECD22E9A27DE1A9F007CB155 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9927DE1A9F007CB155 /* CategoryViewController.swift */; };
+		ECD22E9C27DE24D8007CB155 /* SearchResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9B27DE24D8007CB155 /* SearchResultResponse.swift */; };
+		ECD22E9E27DE25E4007CB155 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9D27DE25E4007CB155 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +109,8 @@
 		ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesResponse.swift; sourceTree = "<group>"; };
 		ECD22E9727DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		ECD22E9927DE1A9F007CB155 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		ECD22E9B27DE24D8007CB155 /* SearchResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultResponse.swift; sourceTree = "<group>"; };
+		ECD22E9D27DE25E4007CB155 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		FC82A558493493B15822D9D7 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,6 +216,8 @@
 				EC49C32527CF9E240019311C /* AlbumDetailResponse.swift */,
 				EC49C32727CFA19F0019311C /* PlaylistDetailResponse.swift */,
 				ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */,
+				ECD22E9B27DE24D8007CB155 /* SearchResultResponse.swift */,
+				ECD22E9D27DE25E4007CB155 /* SearchResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD22E9E27DE25E4007CB155 /* SearchResult.swift in Sources */,
 				EC0D2D2427BF8C1000684004 /* SearchViewController.swift in Sources */,
 				EC0D2D3E27BF8CEF00684004 /* Playlist.swift in Sources */,
 				EC49C31127C7C7410019311C /* FeaturedPlayListResponse.swift in Sources */,
@@ -435,6 +442,7 @@
 				EC0D2D2627BF8C2A00684004 /* LibraryViewController.swift in Sources */,
 				EC0D2D4227BF8D0500684004 /* Artist.swift in Sources */,
 				EC0D2D3427BF8C8100684004 /* PlaylistViewController.swift in Sources */,
+				ECD22E9C27DE24D8007CB155 /* SearchResultResponse.swift in Sources */,
 				EC49C31327C7CBDF0019311C /* RecommendedGenreResponse.swift in Sources */,
 				EC0D2D0A27BF7BF900684004 /* SceneDelegate.swift in Sources */,
 				EC0D2D3227BF8C7700684004 /* PlayerViewController.swift in Sources */,
