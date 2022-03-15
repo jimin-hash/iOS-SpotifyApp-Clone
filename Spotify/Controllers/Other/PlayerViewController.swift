@@ -23,7 +23,6 @@ class PlayerViewController: UIViewController {
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
-        imageView.backgroundColor = .systemBlue
         return imageView
     }()
     
@@ -64,6 +63,10 @@ class PlayerViewController: UIViewController {
     private func configure() {
         imageView.sd_setImage(with: dataSource?.imageURL, completed: nil)
         controlsView.configure(with: PlayerControlsViewViewModel(title: dataSource?.songName, subtitle: dataSource?.subtitle))
+    }
+    
+    func refreshUI() {
+        configure()
     }
 }
 
