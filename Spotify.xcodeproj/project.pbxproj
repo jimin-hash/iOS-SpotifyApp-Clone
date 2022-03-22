@@ -53,6 +53,8 @@
 		ECC6AE0527E8A57700970DAF /* LibraryPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6AE0427E8A57700970DAF /* LibraryPlaylistsViewController.swift */; };
 		ECC6AE0727E8A59700970DAF /* LibraryAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6AE0627E8A59700970DAF /* LibraryAlbumsViewController.swift */; };
 		ECC6AE0927E8A80F00970DAF /* LibraryToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6AE0827E8A80F00970DAF /* LibraryToggleView.swift */; };
+		ECC6AE0B27E8B5E100970DAF /* LibraryPlaylistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6AE0A27E8B5E100970DAF /* LibraryPlaylistResponse.swift */; };
+		ECC6AE0D27E8B7BE00970DAF /* ActionLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6AE0C27E8B7BE00970DAF /* ActionLabelView.swift */; };
 		ECD22E9427DB80DF007CB155 /* GenreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9327DB80DF007CB155 /* GenreCollectionViewCell.swift */; };
 		ECD22E9627DCCE9E007CB155 /* AllCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */; };
 		ECD22E9827DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22E9727DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift */; };
@@ -119,6 +121,8 @@
 		ECC6AE0427E8A57700970DAF /* LibraryPlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPlaylistsViewController.swift; sourceTree = "<group>"; };
 		ECC6AE0627E8A59700970DAF /* LibraryAlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumsViewController.swift; sourceTree = "<group>"; };
 		ECC6AE0827E8A80F00970DAF /* LibraryToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryToggleView.swift; sourceTree = "<group>"; };
+		ECC6AE0A27E8B5E100970DAF /* LibraryPlaylistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPlaylistResponse.swift; sourceTree = "<group>"; };
+		ECC6AE0C27E8B7BE00970DAF /* ActionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionLabelView.swift; sourceTree = "<group>"; };
 		ECD22E9327DB80DF007CB155 /* GenreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionViewCell.swift; sourceTree = "<group>"; };
 		ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesResponse.swift; sourceTree = "<group>"; };
 		ECD22E9727DE199E007CB155 /* CategoryCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 				ECD22E9327DB80DF007CB155 /* GenreCollectionViewCell.swift */,
 				ECD22EAF27DF7A48007CB155 /* PlayControlsView.swift */,
 				ECC6AE0827E8A80F00970DAF /* LibraryToggleView.swift */,
+				ECC6AE0C27E8B7BE00970DAF /* ActionLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				ECD22E9527DCCE9E007CB155 /* AllCategoriesResponse.swift */,
 				ECD22E9B27DE24D8007CB155 /* SearchResultResponse.swift */,
 				ECD22E9D27DE25E4007CB155 /* SearchResult.swift */,
+				ECC6AE0A27E8B5E100970DAF /* LibraryPlaylistResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -464,9 +470,11 @@
 				EC0D2D2427BF8C1000684004 /* SearchViewController.swift in Sources */,
 				EC0D2D3E27BF8CEF00684004 /* Playlist.swift in Sources */,
 				EC49C31127C7C7410019311C /* FeaturedPlayListResponse.swift in Sources */,
+				ECC6AE0B27E8B5E100970DAF /* LibraryPlaylistResponse.swift in Sources */,
 				ECC6AE0927E8A80F00970DAF /* LibraryToggleView.swift in Sources */,
 				ECD22EB027DF7A48007CB155 /* PlayControlsView.swift in Sources */,
 				EC49C32627CF9E240019311C /* AlbumDetailResponse.swift in Sources */,
+				ECC6AE0D27E8B7BE00970DAF /* ActionLabelView.swift in Sources */,
 				EC49C31527C7CF2C0019311C /* ReommendationsResponse.swift in Sources */,
 				EC49C32227CF91700019311C /* RecommendedTrackCellViewModel.swift in Sources */,
 				EC0D2D3827BF8CBC00684004 /* AuthManager.swift in Sources */,
