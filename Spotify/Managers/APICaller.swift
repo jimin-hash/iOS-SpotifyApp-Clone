@@ -123,21 +123,32 @@ final class APICaller {
         }
     }
     
-    public func addTrackToPlaylist(track: AudioTrack, playlists: Playlist, completion: @escaping (Bool) -> Void) {
-        createRequest(with: URL(string: Constants.baseAPIURL + "/me/playlists/?limit=50"), type: .GET) { request in
+    public func addTrackToPlaylist(track: AudioTrack, playlist: Playlist, completion: @escaping (Bool) -> Void) {
+        createRequest(with: URL(string: Constants.baseAPIURL + "/playlists/\(playlist.id)/tracks"), type: .POST) { baseRequest in
+            var request = baseRequest
+            let json = [
+                "uris": [
+                    "spotify:track:\(track.id)"
+                ]
+            ]
+            request.httpBody = try? JSONSerialization.data(withJSONObject: json, options: .fragmentsAllowed)
+            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            
             let task = URLSession.shared.dataTask(with: request) { data, _, error in
-//                guard let data = data, error == nil else {
-//                    completion(.failure(APIError.failedTogetData))
-//                    return
-//                }
-//
-//                do {
-//                    let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-//                    print(json)
-//                } catch {
-//                    print(error)
-//                    completion(.failure(error))
-//                }
+                guard let data = data, error == nil else {
+                    completion(false)
+                    return
+                }
+
+                do {
+                    let result = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+                    if let response = result as? [String:Any], response["snapshot_id"] as? String != nil {
+                        completion(true)
+                    }
+                } catch {
+                    print(error)
+                    completion(false)
+                }
             }
             task.resume()
         }

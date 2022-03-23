@@ -92,7 +92,7 @@ final class PlaylistHeaderCollectionReusableView: UICollectionReusableView {
         descriptinoLabel.text = viewModel.desription
         ownerLabel.text = viewModel.ownerName
         
-        imageView.sd_setImage(with: viewModel.artworkURL, completed: nil)
+        imageView.sd_setImage(with: viewModel.artworkURL, placeholderImage: UIImage(systemName: "photo"), completed: nil)
     }
     
     @objc private func didTapPlayAll() {
