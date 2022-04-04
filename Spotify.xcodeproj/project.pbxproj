@@ -69,6 +69,7 @@
 		ECD22EAC27DF7247007CB155 /* AlbumTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22EAB27DF7247007CB155 /* AlbumTrackCollectionViewCell.swift */; };
 		ECD22EAE27DF731B007CB155 /* AlbumCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22EAD27DF731B007CB155 /* AlbumCollectionViewCellViewModel.swift */; };
 		ECD22EB027DF7A48007CB155 /* PlayControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD22EAF27DF7A48007CB155 /* PlayControlsView.swift */; };
+		ECDCF17827FAFFCD005DF1BA /* LibraryAlbumsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDCF17727FAFFCD005DF1BA /* LibraryAlbumsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,6 +138,7 @@
 		ECD22EAB27DF7247007CB155 /* AlbumTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		ECD22EAD27DF731B007CB155 /* AlbumCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		ECD22EAF27DF7A48007CB155 /* PlayControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayControlsView.swift; sourceTree = "<group>"; };
+		ECDCF17727FAFFCD005DF1BA /* LibraryAlbumsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumsResponse.swift; sourceTree = "<group>"; };
 		FC82A558493493B15822D9D7 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,6 +248,7 @@
 				ECD22E9B27DE24D8007CB155 /* SearchResultResponse.swift */,
 				ECD22E9D27DE25E4007CB155 /* SearchResult.swift */,
 				ECC6AE0A27E8B5E100970DAF /* LibraryPlaylistResponse.swift */,
+				ECDCF17727FAFFCD005DF1BA /* LibraryAlbumsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				EC49C32627CF9E240019311C /* AlbumDetailResponse.swift in Sources */,
 				ECC6AE0D27E8B7BE00970DAF /* ActionLabelView.swift in Sources */,
 				EC49C31527C7CF2C0019311C /* ReommendationsResponse.swift in Sources */,
+				ECDCF17827FAFFCD005DF1BA /* LibraryAlbumsResponse.swift in Sources */,
 				EC49C32227CF91700019311C /* RecommendedTrackCellViewModel.swift in Sources */,
 				EC0D2D3827BF8CBC00684004 /* AuthManager.swift in Sources */,
 				EC49C32E27D0F32B0019311C /* TitleHeaderCollectionReusableView.swift in Sources */,
