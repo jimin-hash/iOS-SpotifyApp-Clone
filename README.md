@@ -12,7 +12,6 @@ MVVM 패턴을 적용하였습니다.
 
 ## 로그인
 
-<img src="https://user-images.githubusercontent.com/62288773/164729389-53c85f29-7321-49ab-bbb9-e775f18ad367.png" width="200" height="400"/>
-<img src="https://user-images.githubusercontent.com/62288773/164729707-ec4fbe15-10cd-4369-b65e-34cb32d6962f.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/62288773/164729389-53c85f29-7321-49ab-bbb9-e775f18ad367.png" width="200" height="400"/> <img src="https://user-images.githubusercontent.com/62288773/164729707-ec4fbe15-10cd-4369-b65e-34cb32d6962f.png" width="200" height="400"/>
 OAuth를 적용하여 로그인을 진행합니다.
 
