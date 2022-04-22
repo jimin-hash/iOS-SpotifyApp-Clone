@@ -2,11 +2,11 @@
 ***
 Clone Spotify iOS App for Study
 
-Xcode Version: 13.3.1
-Swift Version: 5.0
-iOS 15이상 대응
-스토리보드로 UI를 생성하지 않고, 코드로만 진행하였습니다.
-MVVM 패턴을 적용하였습니다.
+Xcode Version: 13.3.1  
+Swift Version: 5.0  
+iOS 15이상 대응  
+스토리보드로 UI를 생성하지 않고, 코드로만 진행하였습니다.  
+MVVM 패턴을 적용하였습니다.  
 ***
 
 
